@@ -1,0 +1,7 @@
+name: web-fallback-chain
+version: 1.0.0
+description: "Custom meta-provider: walks web.chain (firecrawl -> tavily -> searxng -> ...) and returns the first successful search/extract result."
+author: zefengc
+kind: backend
+provides_web_providers:
+  - fallback-chain
