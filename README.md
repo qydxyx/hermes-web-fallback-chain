@@ -12,7 +12,7 @@ Hermes Agent 插件：为 `web_search` / `web_extract` 提供加权 fallback 链
 
 ```bash
 # 1. 克隆到 Hermes 用户插件目录（重启网关后生效）
-git clone https://github.com/<you>/hermes-web-fallback-chain.git ~/.hermes/plugins/web-fallback-chain
+git clone https://github.com/qydxyx/hermes-web-fallback-chain.git ~/.hermes/plugins/web-fallback-chain
 
 # 2. 配置（chain 前两个是 primary，权重固定 2:1；后面的按序兜底）
 hermes config set web.backend fallback-chain
